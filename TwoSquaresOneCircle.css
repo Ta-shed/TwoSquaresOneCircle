@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif
+}
+.circle{
+    background-color: #5f932a;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+
+}
+.box {
+    background-color: #5faf0f;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.box1{
+    background-color: #5f932a;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+    align-self: end;
+}
+
+.box2{
+    position: relative;
+   right:120px
+}
+.container{
+    height: 230px;
+    display: flex;
+
+}
